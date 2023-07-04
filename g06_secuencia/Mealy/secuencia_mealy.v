@@ -6,8 +6,8 @@ module secuencia_mealy (
 );
 
 localparam [1:0]
-    S0 = 1'b00,
-    S1 = 1'b01;
+    S0 = 2'b00,
+    S1 = 2'b01;
 
 reg [1:0] state, nextstate;
 
