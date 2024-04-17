@@ -1,0 +1,23 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed Apr 17 14:36:30 2024
+[*]
+[dumpfile] "/home/gsanchez/workspace/Verilog/Harris_Harris/CD40147/cd40147_always/cd40147_always_tb.vcd"
+[dumpfile_mtime] "Wed Apr 17 14:35:48 2024"
+[dumpfile_size] 1094
+[savefile] "/home/gsanchez/workspace/Verilog/Harris_Harris/CD40147/cd40147_always/cd40147_always_tb.gtkw"
+[timestart] 0
+[size] 1920 1007
+[pos] -461 -204
+*-0.639355 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_cd40147_always.
+[sst_width] 226
+[signals_width] 102
+[sst_expanded] 1
+[sst_vpaned_height] 283
+@28
+tb_cd40147_always.i_tb[9:0]
+@25
+tb_cd40147_always.o_tb[3:0]
+[pattern_trace] 1
+[pattern_trace] 0
