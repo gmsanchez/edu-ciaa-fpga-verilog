@@ -1,0 +1,22 @@
+# ---- B1 Header
+# -- Left column
+
+set_io --warn-no-port A[3] 107
+set_io --warn-no-port A[2] 105
+set_io --warn-no-port A[1] 99
+set_io --warn-no-port A[0] 97
+set_io --warn-no-port B[3] 124
+set_io --warn-no-port B[2] 128
+set_io --warn-no-port B[1] 130
+set_io --warn-no-port B[0] 135
+
+# -- Right column
+set_io --warn-no-port opcode[3] 106
+set_io --warn-no-port opcode[2] 104
+set_io --warn-no-port opcode[1] 98
+set_io --warn-no-port opcode[0] 96
+
+set_io --warn-no-port result[3] 4  #-- output
+set_io --warn-no-port result[2] 3  #-- output
+set_io --warn-no-port result[1] 2  #-- output
+set_io --warn-no-port result[0] 1  #-- output
