@@ -17,11 +17,7 @@ localparam CLK_PERIOD = 10;
 always #(CLK_PERIOD/2) clk=~clk;
 
 initial begin
-    $dumpfile("cd40147_assign_tb.vcd");
     $dumpvars(0, tb_cd40147_assign);
-end
-
-initial begin
 
     #1 i_tb = 10'b0000000000;
     #1 i_tb = 10'b0000000001;
