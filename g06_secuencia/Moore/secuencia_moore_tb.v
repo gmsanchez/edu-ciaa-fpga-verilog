@@ -5,7 +5,7 @@
 // `timescale <time_unit> / <time_precision>
 `timescale 100 ns / 10 ns
 
-module secuencia_tb;
+module secuencia_moore_tb;
 
 //-- Simulation time: 1us (10 * 100ns)
 parameter DURATION = 100;
@@ -19,7 +19,7 @@ reg w_test;
 wire z_test;
 
 //-- Instantiate the unit to test
-secuencia UUT (
+secuencia_moore UUT (
          .clk(clk_test),
          .reset(reset_test),
          .w(w_test),
@@ -29,7 +29,7 @@ secuencia UUT (
 initial begin
     //-- File were to store the simulation results
   $dumpfile(`DUMPSTR(`VCD_OUTPUT));
-  $dumpvars(0, secuencia_tb);
+  $dumpvars(0, secuencia_moore_tb);
   
   #1
   reset_test = 1;

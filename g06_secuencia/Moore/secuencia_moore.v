@@ -1,4 +1,4 @@
-module secuencia (
+module secuencia_moore (
     input wire clk,
     input wire reset,
     input wire w,

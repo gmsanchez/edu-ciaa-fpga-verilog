@@ -23,7 +23,7 @@ begin
         end
 end
 
-always @*
+always @(state or w)
 begin
     nextstate = state;
     case(state)
